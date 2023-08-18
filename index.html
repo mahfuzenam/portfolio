@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahfuz Enam</title>
+    <link rel="icon" type="image/x-icon" href="./assets/arrow.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mohammad Mahfuz Enam Elahi</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skillset">Skillset</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Mohammad Mahfuz Enam Elahi</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="togglemenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="togglemenu()">About</a></li>
+          <li><a href="#skillset" onclick="togglemenu()">Skillset</a></li>
+          <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+          <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile.png" alt="Profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Mahfuz Enam</h1>
+        <p class="section__text__p2">
+          Pharmaceutical Professional and Research Enthusiast
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/cv.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="Linkedin profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/mahfuzenam' "
+          />
+          <img
+            src="./assets/researchgate.png"
+            alt="Researchgate profile"
+            class="icon"
+            onclick="location.href='https://www.researchgate.net/profile/Mohammad-Mahfuz-Enam-Elahi' "
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                8+ years<br />
+                Pharmaceutical Industry
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                Batchelor of Pharmacy<br />
+                Masters in Pharmaceutical Science
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              With solid foundation in the pharmaceutical industry and adequate
+              research experience, passionately interested in propelling
+              collaborative breakthroughs in cancer research, molecular biology,
+              pharmaceutics, and public health.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#skillset'"
+      />
+    </section>
+    <section id="skillset">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skillset</h1>
+      <div class="skillset-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skillset-sub-title">Research</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HPLC</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>FTIR</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>UV Spectroscopy</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Sustained Release Drug Formulation</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Primer Design</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>DNA Polymorphism</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PCR</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Scientific Writing</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skillset-sub-title">Programming/Software</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SPSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GraphPad Prism</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Endnote / Mendeley</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skillset icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Office / Google Docs</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="skillset-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container"></div>
+            <h2 class="skillset-sub-title project-title">
+              Conference Abstract | International Conference on Drug Discovery
+              and Development | IUB | Dhaka | 2022
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.researchgate.net/publication/363924480_Antidiabetic_medication_patterns_of_type-2_diabetic_patients_in_Dhaka_city_A_cross-sectional_study'"
+              >
+                ResearchGate
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://orcid.org/0000-0001-8148-3347'"
+              >
+                ORCID
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container"></div>
+            <h2 class="skillset-sub-title project-title">
+              Conference Abstract | International Conclave on Materials, Energy
+              & Climate | DU | Dhaka | 2022
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.researchgate.net/publication/366866878_Modified_Polyvinyl_Alcohol-Based_Composite_Membrane_for_Application_in_DMFCs'"
+              >
+                ResearchGate
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://orcid.org/0000-0001-8148-3347'"
+              >
+                ORCID
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container"></div>
+            <h2 class="skillset-sub-title project-title">
+              Conference Abstract | International Conference on Textile Science
+              & Engineering | BUTEX | Dhaka | 2023
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.researchgate.net/publication/367525298_ICTSE-137_Cost_Effective_Liquid_Poly-Aluminium_Chloride_PAC_Used_as_a_Coagulant_Agent_for_Treatment_and_Recycling_Industrials_Waste_Water'"
+              >
+                ResearchGate
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://orcid.org/0000-0001-8148-3347'"
+                target="_blank"
+              >
+                ORCID
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:mahfuzenam@gmail.com"> mahfuzenam@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a
+              href="https://www.linkedin.com/in/mahfuzenam"
+              target="_blank"
+              rel="noopener"
+              rel="noreferer"
+            >
+              LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skillset">Skillset</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Mahfuz Enam. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
